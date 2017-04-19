@@ -1,7 +1,10 @@
-# test coverage for  [kraken-js (v2.1.0)](https://github.com/krakenjs/kraken-js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-kraken-js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-kraken-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-kraken-js.svg)](https://travis-ci.org/npmtest/node-npmtest-kraken-js)
+# npmtest-kraken-js
+
+#### test coverage for  [kraken-js (v2.1.0)](https://github.com/krakenjs/kraken-js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-kraken-js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-kraken-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-kraken-js.svg)](https://travis-ci.org/npmtest/node-npmtest-kraken-js)
+
 #### An express-based Node.js web application bootstrapping module.
 
-[![NPM](https://nodei.co/npm/kraken-js.png?downloads=true)](https://www.npmjs.com/package/kraken-js)
+[![NPM](https://nodei.co/npm/kraken-js.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/kraken-js)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-kraken-js/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-kraken-js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-kraken-js/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-kraken-js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-kraken-js/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-kraken-js/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-kraken-js/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-kraken-js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-kraken-js/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-kraken-js/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-kraken-js%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-kraken-js/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-kraken-js/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-kraken-js/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-kraken-js/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-kraken-js%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-kraken-js/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-kraken-js/build/test-report.html](https://npmtest.github.io/node-npmtest-kraken-js/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-kraken-js/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-kraken-js/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-kraken-js/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-kraken-js/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-kraken-js/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-kraken-js/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-kraken-js/build/screenCapture.npmPackageListing.svg)
 
@@ -27,28 +36,23 @@
 
 {
     "author": {
-        "name": "Erik Toth",
-        "email": "ertoth@paypal.com"
+        "name": "Erik Toth"
     },
     "bugs": {
         "url": "https://github.com/krakenjs/kraken-js/issues"
     },
     "contributors": [
         {
-            "name": "Jeff Harrell",
-            "email": "jeharrell@paypal.com"
+            "name": "Jeff Harrell"
         },
         {
-            "name": "Trevor Livingston",
-            "email": "trlivingston@paypal.com"
+            "name": "Trevor Livingston"
         },
         {
-            "name": "Lenny Markus",
-            "email": "lmarkus@paypal.com"
+            "name": "Lenny Markus"
         },
         {
-            "name": "Jean-Charles Sisk",
-            "email": "jsisk@paypal.com"
+            "name": "Jean-Charles Sisk"
         }
     ],
     "dependencies": {
@@ -119,20 +123,16 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "totherik",
-            "email": "totherik@gmail.com"
+            "name": "totherik"
         },
         {
-            "name": "jeffharrell",
-            "email": "jeff@juxtadesign.com"
+            "name": "jeffharrell"
         },
         {
-            "name": "pvenkatakrishnan",
-            "email": "poo.leo@gmail.com"
+            "name": "pvenkatakrishnan"
         },
         {
-            "name": "jasisk",
-            "email": "jasisk@gmail.com"
+            "name": "jasisk"
         }
     ],
     "name": "kraken-js",
@@ -140,7 +140,6 @@
     "peerDependencies": {
         "express": "^4.8.4"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/krakenjs/kraken-js.git"
