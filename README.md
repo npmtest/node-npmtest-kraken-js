@@ -1,6 +1,6 @@
 # npmtest-kraken-js
 
-#### test coverage for  [kraken-js (v2.1.0)](https://github.com/krakenjs/kraken-js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-kraken-js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-kraken-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-kraken-js.svg)](https://travis-ci.org/npmtest/node-npmtest-kraken-js)
+#### basic test coverage for  [kraken-js (v2.1.0)](https://github.com/krakenjs/kraken-js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-kraken-js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-kraken-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-kraken-js.svg)](https://travis-ci.org/npmtest/node-npmtest-kraken-js)
 
 #### An express-based Node.js web application bootstrapping module.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-kraken-js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-kraken-js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-kraken-js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-kraken-js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-kraken-js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-kraken-js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-kraken-js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-kraken-js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-kraken-js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-kraken-js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-kraken-js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-kraken-js/build/coverage.html/index.html)
 
@@ -149,7 +149,8 @@
         "lint": "jshint -c .jshintrc index.js lib/ middleware/",
         "test": "tape test/*.js"
     },
-    "version": "2.1.0"
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
